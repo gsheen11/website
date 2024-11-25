@@ -1,7 +1,7 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
+  height: 100%;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -16,6 +16,11 @@ body {
     sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-image: url('/images/waiting for guests.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 * {

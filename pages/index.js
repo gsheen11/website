@@ -28,7 +28,6 @@ export default function Home() {
           &nbsp;based in NYC 🗽
         </p>
       </section>
-      <Link href="/posts/first-post">First post</Link>
     </Layout>
   );
 }
