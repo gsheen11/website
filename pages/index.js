@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Grant Sheen</title>
       </Head>
@@ -20,14 +20,9 @@ export default function Home() {
           width={144}
           alt=""
         />
-        <h1 className={utilStyles.heading2Xl}>Grant Sheen</h1>
+        <h1 className={utilStyles.headingXl}>Grant Sheen</h1>
+        <p>Website under construction!</p>
       </header>
-      <section className={utilStyles.headingMd}>
-        <p>Hello! I am a Software Engineer at&nbsp;
-          <a href="https://headway.co" target="_blank" rel="noopener noreferrer">Headway</a>
-          &nbsp;based in NYC 🗽
-        </p>
-      </section>
     </Layout>
   );
 }
