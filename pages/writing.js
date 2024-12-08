@@ -10,6 +10,7 @@ export default function Writing() {
       </Head>
       <div className={utilStyles.container}>
         <h1>Writing</h1>
+        <h3>Coming Soon...</h3>
       </div>
     </Layout>
   );

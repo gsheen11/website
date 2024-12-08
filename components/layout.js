@@ -1,18 +1,24 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './layout.module.css';
 
 export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="images/yin yang.png"/>
         <meta name="description" content="My personal website" />
       </Head>
       <nav className={styles.navbar}>
         <div className={styles.navHome}>
           <Link href="/" className={styles.navItem}>
-            GS
+          <Image
+              src="/images/logo.png"
+              alt="Logo"
+              width={50}
+              height={50}
+          />
           </Link>
         </div>
         <div className={styles.navItems}>

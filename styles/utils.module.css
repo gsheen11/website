@@ -21,4 +21,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 1rem; /* Space between grid items */
+    padding: 1rem;
+}
+
