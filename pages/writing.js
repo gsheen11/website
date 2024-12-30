@@ -9,8 +9,7 @@ export default function Writing() {
         <title>Writing</title>
       </Head>
       <div className={utilStyles.container}>
-        <h1>Writing</h1>
-        <h3>Coming Soon...</h3>
+        <p>Coming soon...</p>
       </div>
     </Layout>
   );

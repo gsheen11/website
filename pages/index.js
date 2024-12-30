@@ -12,15 +12,6 @@ export default function Home() {
         <title>Grant Sheen</title>
       </Head>
       <header className={utilStyles.header}>
-        <Image
-          priority
-          src="/images/profile.jpg"
-          className={utilStyles.borderCircle}
-          height={144}
-          width={144}
-          alt=""
-        />
-        <h1 className={utilStyles.headingXl}>Grant Sheen</h1>
         <p>Website under construction!</p>
       </header>
     </Layout>

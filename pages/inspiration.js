@@ -15,31 +15,41 @@ export default function Inspiration() {
         <title>Inspiration</title>
       </Head>
       <div className={utilStyles.container}>
-        <h1>Inspiration</h1>
+        {/* <h1>Inspiration</h1> */}
         <div className={utilStyles.grid}>
           <div>
             <Image
               src="/images/onion.png"
               alt="Onion"
-              width={200}
-              height={200}
-              layout="responsive"
+              height={500}
+              width={400}
             />
           </div>
-          <div>
+          <div className={utilStyles.videoContainer}>
+            <h4>Ram Dass bargaining story (ends at 35:45)</h4>      
+            <iframe 
+              width="450" 
+              height="350" 
+              src="https://www.youtube.com/embed/IEHx5B0fuPc?si=rYxZSCBrW8dKEhZz&amp;start=1950" 
+              title="Bargaining story" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div className={utilStyles.metamorphoses}>
             <Image
               src="/images/metamorphoses 1.png"
-              alt="Metamorphoses"
-              width={100}
-              height={100}
-              layout="responsive"
+              alt="Metamorphoses 1"
+              height={400}
+              width={200}
             />
             <Image
               src="/images/metamorphoses 2.png"
-              alt="Metamorphoses"
-              width={100}
-              height={100}
-              layout="responsive"
+              alt="Metamorphoses 2"
+              height={400}
+              width={250}
             />
           </div>
         </div>
