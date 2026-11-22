@@ -1,19 +1,16 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Layout from '../components/layout';
-import Link from 'next/link';
-
-import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Grant Sheen</title>
+        <link rel="icon" href="/images/logo.png" />
       </Head>
-      <header className={utilStyles.header}>
-        <p>Website under construction!</p>
+      <header className="header">
+        <Image src="/images/logo.png" alt="Grant Sheen" width={50} height={50} priority />
       </header>
-    </Layout>
+    </>
   );
 }
