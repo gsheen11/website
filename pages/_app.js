@@ -4,16 +4,13 @@ import '../styles/global.css';
 export default function App({ Component, pageProps }) {
   return (
     <ClerkProvider {...pageProps}>
-      <header className="top-bar">
-        <Show when="signed-out">
-          <a href="/files">Sign in</a>
-        </Show>
-        <Show when="signed-in">
+      <Show when="signed-in">
+        <header className="top-bar">
           <SignOutButton redirectUrl="/">
             <button>Sign out</button>
           </SignOutButton>
-        </Show>
-      </header>
+        </header>
+      </Show>
       <Component {...pageProps} />
     </ClerkProvider>
   );
