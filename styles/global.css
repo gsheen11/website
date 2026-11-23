@@ -22,3 +22,25 @@ body {
   white-space: pre-wrap;
   font-family: ui-monospace, monospace;
 }
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  font: 16px system-ui, sans-serif;
+}
+
+.top-bar a,
+.top-bar button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
